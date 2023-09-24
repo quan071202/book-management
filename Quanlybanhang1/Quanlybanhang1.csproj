@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B61C4BA9-6341-43E0-AD92-3AE128E3770A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Quanlybanhang1</RootNamespace>
+    <AssemblyName>Quanlybanhang1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormBaoCaoTheoThang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBaoCaoTheoThang.Designer.cs">
+      <DependentUpon>FormBaoCaoTheoThang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTim.Designer.cs">
+      <DependentUpon>FormTim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBaoCaoThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBaoCaoThongKe.Designer.cs">
+      <DependentUpon>FormBaoCaoThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDMK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDMK.Designer.cs">
+      <DependentUpon>FormDMK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDN.Designer.cs">
+      <DependentUpon>FormDN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHD.Designer.cs">
+      <DependentUpon>FormHD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formMain.Designer.cs">
+      <DependentUpon>formMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNTG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNTG.Designer.cs">
+      <DependentUpon>FormNTG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNTL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNTL.Designer.cs">
+      <DependentUpon>FormNTL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNXB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNXB.Designer.cs">
+      <DependentUpon>FormNXB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTaoTK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTaoTK.Designer.cs">
+      <DependentUpon>FormTaoTK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTNXB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTNXB.Designer.cs">
+      <DependentUpon>FormTNXB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTTG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTTG.Designer.cs">
+      <DependentUpon>FormTTG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTTL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTTL.Designer.cs">
+      <DependentUpon>FormTTL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funtion.cs" />
+    <Compile Include="PhieuNhapSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhieuNhapSach.Designer.cs">
+      <DependentUpon>PhieuNhapSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormBaoCaoTheoThang.resx">
+      <DependentUpon>FormBaoCaoTheoThang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBaoCaoThongKe.resx">
+      <DependentUpon>FormBaoCaoThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDMK.resx">
+      <DependentUpon>FormDMK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDN.resx">
+      <DependentUpon>FormDN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHD.resx">
+      <DependentUpon>FormHD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formMain.resx">
+      <DependentUpon>formMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNTG.resx">
+      <DependentUpon>FormNTG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNTL.resx">
+      <DependentUpon>FormNTL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNXB.resx">
+      <DependentUpon>FormNXB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTaoTK.resx">
+      <DependentUpon>FormTaoTK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTim.resx">
+      <DependentUpon>FormTim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTNXB.resx">
+      <DependentUpon>FormTNXB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTTG.resx">
+      <DependentUpon>FormTTG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTTL.resx">
+      <DependentUpon>FormTTL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhieuNhapSach.resx">
+      <DependentUpon>PhieuNhapSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg-login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoTK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoMK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\infor.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\write.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\write1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-sach.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-sach2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
